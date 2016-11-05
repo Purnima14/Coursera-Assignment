@@ -1,0 +1,21 @@
+<nav>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-success" ng-repeat="item in $ctrl.items">
+  <div class="container-fluid row">
+    <div class="control-label">
+     <h3>Name: {{ item.name }}</h3>
+     </div><div>
+   Description : {{item.description}}
+   </div><div >
+   Small Price : {{item.price_small}}
+   </div><div >
+    Large Price : {{item.price_large}}
+    </div><div >
+    Small Portion Name: {{item.small_portion_name}}
+    </div><div>
+    Large Portion Name: {{item.large_portion_name}}
+  </div>
+</div>
+  </li>
+</ul>
+</nav>
